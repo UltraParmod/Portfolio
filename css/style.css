@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    margin: 0 auto;
+    /* max-width: 1200px; */
+    scroll-behavior: smooth;
+}
+.lin a{
+    color: #fff;
+    text-decoration: none;
+}
+.prot{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin: 20px auto;
+    color:orangered;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 3px gray;
+}
+.hire_me{
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    border-radius:0 20px;
+    top:36vh;
+    letter-spacing: 1px;
+    background-color: orangered;
+    color: #fff;
+    left:6vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding: 5px 10px;
+    transition:background-color .5s ease-in-out;
+    z-index: 2;
+}
+.hire_me:hover{
+    background-color: rgb(199, 55, 3);  
+}
+.marginn{
+    margin: 80px 0 20px 0 !important;
+    }
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-attachment: fixed;
+    box-shadow: 0 0 10px 3px gray;
+    background-color: aliceblue;
+}
+.header .logo,.h2{
+    font-size: .8rem;
+    padding: 10px 0;
+    font-family:cursive;
+    margin-left: 20px;
+    color:orangered;
+}
+.header nav{
+    margin-right: 10px;
+    align-items: center;
+    margin-bottom: 20px !important;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:orangered;
+    font-size: 1.3rem;
+  transition:color .9s ease-out;
+}
+nav ul li  a:hover{
+    border-bottom: 2px solid orangered;
+    color: rgb(180, 59, 3);
+    cursor: pointer;
+}
+.wraper{
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.wraper .h2 h2{
+    position: absolute;
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 50%;
+    font-family: cursive;
+    top: 30%;
+    width: 50%;
+    float:right;
+}
+.wraper .h2 h2 .divd-1{
+    position: absolute;
+    top: 120%;
+    left: 5%;
+    display:inline-block;
+    border-radius: 50px;  
+}
+.wraper .h2 h2 .divd-1 img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition:transform .1s linear;
+}
+.wraper .h2 h2 .divd-1 img:hover{
+background-color: rgb(250, 245, 245);
+border: 1px solid rgb(250, 245, 245);
+}
+.wraper .h2 h2 .divd-1 img:hover{
+    transform: translateY(-10%);
+    text-decoration: underline;
+}
+.wraper .h2 h2::after{
+    content: "Graphices Desiginer....";
+    animation: kk 6s linear infinite; 
+    color: greenyellow;
+}
+@keyframes kk{
+    25%{
+        content: " Web Desiginer....";
+        color: #fff;
+    }
+    50%{
+        content: " Web Devloper....";
+        color: blue;
+    }
+}
+.wraper p{
+    font-size:12px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wraper .divd{
+    float: right;
+    position: absolute;
+    top: 30%;
+    background-color: orangered;
+    right:10%;
+    border-radius: 200px;
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 200px;
+    height: 200px;
+    
+}
+.wraper .divd p{
+    color: aliceblue;
+    font-size: 16px;
+    width: auto;
+    margin: 210px auto !important;
+}
+.wraper .divd img{
+    width: 200px;
+    height: 200px;
+    border-radius:200px;
+    display:block;
+    border: 10px solid  orangered;
+}
+.wraper .divd .hire_me{
+left: 35%;
+}
+.wraper img{
+    width:100%;
+    float: right;
+    height: 100%;
+    display: block;
+}
+.secton .prowor,
+.sectonn .prowornn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    text-align: center;
+}
+.secton .prowor .divd-1{
+    padding: 10px;
+    margin: 10px;
+    transition:background-color .5s ease-out;
+    cursor: pointer;
+    background-color:orangered;
+    color: #fff; 
+    box-shadow: 0 0 5px gray;  
+}
+.secton .prowor .divd-1 h2{
+    margin-top: 5px;
+}
+.secton .prowor .divd-1 img{
+    width:100px;
+    height: 100px;
+    border-radius:50px;
+    margin: 0 auto;
+    display: block;
+}
+.secton .prowor .divd-1:hover{
+    background-color:rgb(194, 55, 4);
+}
+.sectonn .prowornn .divdnn-1{
+    width: 100%;
+    margin: 10px;
+}
+.sectonn .prowornn .divdnn-1 img {
+    width:100%;
+    margin: 5px auto;
+    display: block;
+    filter: grayscale(0%);
+    transition: filter .0s ease-in;
+}
+.sectonn .prowornn .divdnn-1 img:hover{
+    filter: grayscale(100%);
+}
+/* ########################### */
+.pich .divd-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: orangered;
+    padding: 30px 0;
+}
+.pich .divd-1 .poo p{
+    margin-top: 5px;
+    text-align: center;
+        color: #fff;
+}
+.pich .divd-1 .poo img{
+ width: 100px;
+ height: 100px;display: block;
+ border-radius: 50px;
+ transition: transform .4s ease-out;
+}
+.pich .divd-1 .poo img:hover{
+ transform: translateY(-7%);
+}
+/* ####################################### */
+.form-sec{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    padding:  60px 0;
+    margin-bottom: 50px;
+}
+.form-sec form{
+    border: 2px solid  gray;
+    background-color: #fff;
+}
+.form-sec form .poo img,
+.pro-map .fo-m-chach .poo img{
+width: 80px;
+height: 80px;
+border-radius:50px;
+margin: 30px auto;
+border: 4px solid orangered;
+display: block;
+}
+.form-sec form .fo-m{
+   padding: 5px 40px;
+}
+.form-sec form .fo-m-chach{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px 40px
+}
+.form-sec form .fo-m-chachh{
+    margin:0 0 10px 40px;
+    font-size: 12px;
+}
+.form-sec form .fo-m label{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    color: orangered;
+}
+.form-sec form .fo-m input{
+    width: 100%;
+border:1px solid orangered;
+    outline: none;
+    padding-left: 10px;
+    height: 30px;
+}
+.form-sec form .fo-m .btn-sum{
+    width: 50%;
+    background-color: orangered;
+    color: #fff;
+    letter-spacing: 2px;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.form-sec form .fo-m .btn-sum:hover{
+    background-color: rgb(185, 52, 3);
+}
+/* ################################### */
+.pro-map .fo-m-chach{
+color: orangered;
+letter-spacing: 2px;
+background-color: #fff;
+padding: 10px 40px;
+width: auto;
+}
+.pro-map .fo-m-chach p{
+    color:#000;
+    margin-bottom: 20px ;
+    align-items: center;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.likkk a{
+    text-decoration: none !important; 
+    color: #000;
+}
+/* map############## */
+.map{
+    width: 100%;
+}
+.map iframe{
+    width: 100%;
+}
+/* #########################footer */
+footer{
+    background-color: black;
+    padding: 30px 10px 5px 10px;  
+}
+footer .fott{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px; 
+}
+footer .fott  p{
+    color: rgb(221, 216, 216); 
+    margin-bottom: 20px  ;
+    letter-spacing: 3px;
+    font-size: 12px;  
+}
+footer .fott  p a{
+ color: rgb(221, 216, 216);
+ text-decoration: none;
+word-wrap: break-word   ;
+padding-right: 12px;
+}
+footer .fott  p a:hover{
+    text-decoration: underline;
+}
+footer .fott h2{
+    letter-spacing: 2px;
+}
+footer .fott .fotoo .divd-1 img{
+    width: 50px !important;
+    height: 50px !important;
+    border: 1px solid #fff; 
+}
+footer .fott .divd-1 img{
+    width: 20px;
+    height: 20px;
+    filter: grayscale(0%);
+}
+footer .fott .divd-1 img:hover{
+    filter: hue-rotate(100deg);
+}
+footer .fott h2{
+    color: orangered;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.fot .ser{
+    margin-top: 10px;
+    width: 80%;
+}
+.fot .ser input::placeholder{
+    color: orangered;
+}
+.fot .ser input{
+    height: 20px;
+    width:60%;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+}
+.fot .ser a{
+    text-decoration: none;
+    color: black;
+    padding:0 10px;
+    background-color: orangered;
+    border-bottom: 2px solid orangered;
+    outline: none;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 1px;
+}
+footer .kp {
+    text-align: center;
+    padding-top:10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: underline;cursor: pointer;
+}
+footer .kp a{
+    text-decoration: none !important;
+    color: rgb(185, 182, 182);
+}
+.parmod_menuu{
+    width:40px !important;
+    height: 40px !important;
+    position: absolute !important;
+    top: 20px !important;
+    left: 30px !important;
+    display: none !important;
+    z-index: 5555 !important;
+}
+/* @media query is start */
+/* ########################## */
+@media (max-width:1200px){
+   
+}
+/* ####################### */
+@media (max-width:992px){
+    .hire_me{
+        top:41vh;  
+    }
+    .secton .prowor{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.secton .prowor::before,
+.secton .web::before,
+.secton .devloperr::before{
+content: "Hii, I'm Graphice Designer ";
+display: block;
+word-wrap: break-word;
+width: 30%;
+height: 35% !important;
+background-color: orangered;
+color: #fff;
+padding-bottom: 10px;
+margin: 10px;
+font-size: 3.6em;
+text-align: center;
+align-items:center;
+animation: sister 1s ease infinite;
+}
+@keyframes sister{
+    25%{
+        color: red;
+        background-color:rgb(238, 255, 0);
+    }
+    50%{
+        color: green;
+        background-color: rgb(0, 255, 157);
+    }
+    75%{
+        color: blue;
+        background-color: rgb(255, 8, 214);
+    }
+    100%{
+        color: rgb(238, 255, 0);
+        background-color: rgb(119, 189, 255);
+    }
+}
+.secton .web::before{
+    content: "Hii, I'm Website Designer ";
+    word-wrap: break-word;
+}
+.secton .devloperr::before{
+    content: "Hii, I'm Website Devloper  ";
+}
+    .secton .prowor .divd-1{
+        flex-basis: 30%;
+    }
+}
+/* ############################## */
+@media (max-width:768px){
+    .secton .prowor .divd-1{
+        flex-basis: 45%;
+    }
+    .secton .prowor::before,
+.secton .web::before,
+.secton .devloperr::before{
+width: 45%;
+}
+.sectonn .prowornn::before{
+    content: "Hii, I'm Graphice Designer ";
+    display: block;
+    word-wrap: break-word;
+    width: 30%;
+    height: 35% !important;
+    background-color: orangered;
+    color: #fff;
+    padding-bottom: 10px;
+    margin: 10px;
+    font-size: 3.6em;
+    text-align: center;
+    align-items:center;
+    animation: sister 1s ease infinite;
+    }
+.sectonn .prowornn{
+    flex-wrap: wrap;
+}
+.sectonn .prowornn .divdnn-1{
+    flex-basis: 45%;
+}
+.sectonn .prowornn::before{
+    content: " Hii, Im Parmod. This is my Project";
+    width: 45%; 
+}
+.pro-map .fo-m-chach{
+    margin-top: 50px;
+}
+footer .fott{
+    flex-wrap: wrap;
+}
+footer .fott .fot,
+footer .fott .fotoo{
+    text-align: center;
+    flex-basis: 45%;
+}
+.fot .ser{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.fot .ser input{
+    width: 45%;
+}
+}
+@media (max-width:480px){
+    nav ul{
+        position: absolute !important;
+        top:0px !important;
+        left:0px !important;
+        background-color: orangered !important;
+        width: 100%;
+        height: 100% !important;
+        overflow: hidden !important;
+        z-index: 4444 !important;
+        transition: .5s ease-out !important;
+    }
+    nav ul li {
+        display: block !important;
+        margin:40px auto !important;
+        align-items: center !important;
+        /* margin-left: 0px !important; */
+        /* margin-top: 40px !important; */
+        z-index: 4444 !important;
+        /* margin-bottom: 20px !important; */
+        text-align: center !important;
+    }
+    nav ul li a{
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 5px 0;
+        display: inline-block;
+        width: 50%;
+        border: 0px outset  gray;
+        background-color: orangered;
+        border-radius: 50px;
+        box-shadow:0 0px 5px 5px rgb(179, 177, 177);
+    }
+    nav ul li a:hover{
+    background-color: rgb(0, 255, 255);
+    color: #000;
+    }
+    .parmod_menuu {
+        display: block !important;
+        cursor: pointer !important;
+        padding: 2px;
+        border: 2px solid #fff;
+    }
+    .hire_me{
+        top:41vh !important;
+    }
+    /* ############# */
+    .header .logo,.h2{
+        font-size: .9rem;
+        padding: 10px 0;
+        font-family:cursive;
+        margin-left: 20px;
+        color:orangered;
+    }
+    .header nav{
+        margin-right: 10px;
+    }
+    .wraper .h2 h2{
+        font-size: 1.3rem;
+    }
+    .wraper .divd{
+        right:5%;
+        width: auto;
+       background-color: transparent;
+    }
+    .wraper{
+        height: 80vh;
+    }
+    .hire_me{
+        top:60vh !important ;
+        left: 2vh !important;
+    }
+    .wraper .divd .hire_me{
+        padding-left: 10px !important;
+        left: 40% !important;
+        }
+    .wraper .divd img{
+        width: 150px;
+        border-radius:150px;
+        margin-top: 20px;
+        border:10px solid orangered;
+        height: 150px;
+    }
+    .wraper .divd p{
+        margin: 190px auto !important;
+    }
+    .secton .prowor .divd-1{
+        flex-basis: 100%;
+    }
+    .secton .prowor::before,
+.secton .web::before,
+.secton .devloperr::before,
+.sectonn .prowornn::before{
+display: none;
+}
+.form-sec{
+    padding:  60px 20px;
+}
+.pich .divd-1 .poo{
+    flex-wrap: wrap;
+    margin: 10px auto;
+    text-align: center;
+    width: 50%;
+} .pich .divd-1 img{
+    margin: 0 auto;
+}
+.sectonn .prowornn .divdnn-1{
+    flex-basis: 100%;
+}
+footer .fott{
+    flex-wrap: wrap;
+}
+footer .fott .fot,
+footer .fott .fotoo{
+    text-align: center;
+    flex-basis: 100%;
+}
+}
+@media (max-width:300px){
+    .prot{
+        font-size: 1.5rem;
+    }
+    .wraper{
+        height: 80vh;
+    }
+    .hire_me{
+        top:60vh !important ;
+        left: 2vh !important;
+    }
+    .wraper .h2 h2 .divd-1{
+     top: 110%; 
+     margin-left: -10px;
+    }
+    .parmod_menuu {
+        top: 2% !important;
+        left:5% !important;
+    }
+    .wraper .divd img{
+        position: relative !important;
+        width: 100px;
+        border-radius:100px;
+        margin-top: 70px;
+        border:5px solid orangered;
+        height: 100px;
+    }
+    .wraper .divd p{
+        word-wrap: break-word;
+        font-size: .7rem ;
+        text-align: center !important;
+        margin: 0 auto;
+        margin-top: 180px !important;
+        z-index: -222 !important;
+        word-break: break-all;
+    }
+}
